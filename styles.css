@@ -1,5 +1,8 @@
-html{
+*{
   background-color: #fffbf7;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
 
 }
 
