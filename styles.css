@@ -20,14 +20,13 @@ button {
 }
 
 .header {
-
-
   /* margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px; */
   margin: 40px 20px 0px 20px;
   font-size: 0;
   line-height: 45px;
+  font-family: sans-serif;
 }
 
 li {
@@ -38,8 +37,6 @@ li {
   display: inline-block;
   font-size: 16px;
   vertical-align: middle;
-  height: 100%;
-  line-height: 45px;
 }
 
 .logo {
@@ -49,11 +46,41 @@ li {
 .navbar {
   width: 70%;
   text-align: center;
-  color: green;
+  color: #025157;
+
 }
 
 .actions {
   width: 15%;
   text-align: right;
   font-size: 14px;
+  font-weight: 600;
+
+}
+
+.actions a{
+  color: #67b54b;
+  margin: 0px 10px 0px 10px;
+  /* background-color:red; */
+}
+
+.navbar ul li{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.actions button{
+  color: white;
+  background-color: #67b54b;
+  /* padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 12px;
+  padding-top: 12px; */
+  /* Esto es lo mismo que la siguiente linea */
+  border:0;
+  padding: 12px 14px;
+  border-radius: 5px;
+  /* margin: 0px 10px 0px 10px; */
+  /* esto es lo mismo de la linea de abajo  */
+  margin: 0px 10px;
 }
