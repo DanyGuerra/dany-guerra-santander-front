@@ -84,3 +84,37 @@ li {
   /* esto es lo mismo de la linea de abajo  */
   margin: 0px 10px;
 }
+
+
+.publish {
+  /* container styles if any */
+  margin: 0px 50px;
+}
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+  margin: 0;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* .publish > form {
+  display: flex;
+} */
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.video-pub{
+  display: flex;
+}
