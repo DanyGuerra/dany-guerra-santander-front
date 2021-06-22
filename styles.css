@@ -4,17 +4,13 @@ body {
   /* background-color: rgb(206, 241, 241); */
   margin: 0;
   /* background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png'); */
+  background-color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
   color: #46484c;
   text-align: center;
-}
-
-p {
-  color: #8b8b8bcc;
-  font-family: verdana;
-  font-size: 20px;
 }
 
 button {
@@ -30,10 +26,7 @@ button {
 }
 
 .header {
-  /* margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px; */
-  margin: 40px 20px 0px 20px;
+  margin: 10px 20px 0px 20px;
   font-size: 0;
   line-height: 45px;
   font-family: sans-serif;
@@ -71,7 +64,6 @@ li {
 .actions a{
   color: #67b54b;
   margin: 0px 10px 0px 10px;
-  /* background-color:red; */
 }
 
 .navbar ul li{
@@ -82,23 +74,17 @@ li {
 .actions button{
   color: white;
   background-color: #67b54b;
-  /* padding-left: 14px;
+  padding-left: 14px;
   padding-right: 14px;
+  padding-top: 12px;
   padding-bottom: 12px;
-  padding-top: 12px; */
-  /* Esto es lo mismo que la siguiente linea */
-  border:0;
-  padding: 12px 14px;
+  border: 0;
   border-radius: 5px;
-  /* margin: 0px 10px 0px 10px; */
-  /* esto es lo mismo de la linea de abajo  */
-  margin: 0px 10px;
+
 }
 
 
 .publish {
-  /* container styles if any */
-  /* margin: 0px 50px; */
   margin-left: 5%;
 }
 
@@ -116,10 +102,6 @@ li {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
-/* .publish > form {
-  display: flex;
-} */
 
 .publish > form p {
   color: #025157;
@@ -154,10 +136,112 @@ li {
   right: 0;
 }
 
-.success-stories {
-  background-color:#a1d683;
-  /* padding: 5% 15%;
+.success-stories{
+  background-color: #a1d683;
+  padding: 5% 15%;
   display: flex;
   align-items: center;
-  justify-content: space-around; */
+  justify-content: center;
+}
+
+.success-stories .overview {
+  flex: 2;
+  padding-right: 10%;
+}
+
+.success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+
+.success-stories .overview img{
+  width: 70%;
+  height:100%;
+}
+
+.stories-carousel .card {
+  position: relative;
+  max-width: 370px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-media figure img{
+  width:100%;
+  border-top-left-radius: 10px;
+  border-top-Right-radius: 10px;
+  display: inline;
+}
+
+.card-media .company img{
+  width: 100%;
+}
+
+.card-media .company{
+  position: absolute;
+  bottom: 400px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-body h4{
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+
+.card-body h3{
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.card-body p{
+  color: #8b8b8bcc;
+
+}
+
+.card-body{
+  margin: 0% 10%;
+}
+
+.card-footer{
+  margin: 0% 5% 10%;
+}
+.card-footer button{
+  margin-top: 15px;
+  width: 300px;
+  height: 50px;
+}
+
+.card-body .results img{
+  width: 20%;
+  height: 10%;
+  margin-right: 18px;
+}
+
+.card-body .results{
+  display : flex;
+  flex-direction : row;
+  align-items: center;
 }
