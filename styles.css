@@ -20,6 +20,10 @@ button {
   background-color: #025157;
 }
 
+.debug {
+  background-color:red !important;
+}
+
 .header {
   /* margin-top: 40px;
   margin-left: 20px;
