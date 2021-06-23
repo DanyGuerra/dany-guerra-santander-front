@@ -141,12 +141,12 @@ li {
   padding: 5% 15%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .success-stories .overview {
   flex: 2;
-  padding-right: 10%;
+  padding-right: 100px;
 }
 
 .success-stories .overview h2 {
@@ -158,37 +158,54 @@ li {
 
 
 .success-stories .overview img{
-  width: 70%;
+  width: 500px;
   height:100%;
 }
 
 .stories-carousel .card {
-  position: relative;
   max-width: 370px;
   width: 100%;
   background-color: #fff;
   border-radius: 10px;
+  /* position: relative; */
+  display: -ms-flexbox;
   display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+
 
 }
 
-.card-media figure img{
+
+.card-media figure {
+  margin: 0;
+}
+
+.card-media img{
   width:100%;
+  width: 100%;
+  max-height: 16vw;
   border-top-left-radius: 10px;
-  border-top-Right-radius: 10px;
-  display: inline;
+  border-top-right-radius: 10px;
 }
 
 .card-media .company img{
   width: 100%;
 }
 
+.card-media{
+  position: relative;
+}
+
 .card-media .company{
   position: absolute;
-  bottom: 400px;
+  bottom: -20px;
   right: 20px;
   width: 100px;
   height: 100px;
@@ -197,7 +214,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .card-body h4{
@@ -229,15 +245,18 @@ li {
   margin: 0% 5% 10%;
 }
 .card-footer button{
-  margin-top: 15px;
-  width: 300px;
-  height: 50px;
+  display: block;
+  margin-left: 0;
+  border-radius: 5px;
+  font-size: 13;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 100%;
 }
 
 .card-body .results img{
-  width: 20%;
-  height: 10%;
-  margin-right: 18px;
+  width: 26px;
+  margin-right: 20px;
 }
 
 .card-body .results{
