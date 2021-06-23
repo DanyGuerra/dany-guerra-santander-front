@@ -115,6 +115,7 @@ li {
   align-items: center;
 }
 
+
 .explanatory-video {
   display: flex;
   flex-direction: column;
@@ -194,7 +195,7 @@ li {
 }
 
 .card-media .company img{
-  width: 100%;
+  max-width: 75%;
 }
 
 .card-media{
