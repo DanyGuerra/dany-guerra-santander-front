@@ -12,11 +12,13 @@ h1 {
 }
 
 button {
-  color: #fff;
   background-color: #025157;
-  padding: 15px 18px;
-  border: 0;
-  border-radius:5px;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
 }
 
 .debug {
@@ -91,7 +93,6 @@ li {
   font-size: 40px;
   line-height: 48px;
   color: #025157;
-  margin: 0;
 }
 
 .publish > p {
@@ -102,14 +103,28 @@ li {
 }
 
 .publish > form p {
-  color: #025157;
-  margin-right: 18px;
+  color: #8b8b8bcc;
+  margin-top: 15px;
+}
+
+.signup-form {
+    height: 55px;
+}
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+
+input, button {
+    height: 100%;
+    border-radius: 8px;
 }
 
 .promo{
   display: flex;
-  /* flex-direction: row-reverse; */
-  justify-content: center;
   width: 70%;
   margin: 100px auto;
   align-items: center;
@@ -117,6 +132,7 @@ li {
 
 
 .explanatory-video {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,6 +142,11 @@ li {
   width: 120px;
   margin-top: 10px;
 }
+
+
+
+
+
 
 .header-fixed{
   position: fixed;
