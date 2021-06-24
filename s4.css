@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+
+  background-color:blue;
+}
+
+.container > .item{
+  background-color:gray;
+  width:30%;
+  height:30px;
+}
+
+.main{
+  display: flex;
+  width:500px;
+}
+
+/* .main div:nth-of-type(1){
+  flex-grow: 1;
+}
+
+.main div:nth-of-type(4){
+  flex-grow: 1;
+} */
+
+.item-1 {
+  flex-basis: 100px;
+  flex-grow:2;
+}
+.item-2 {
+  flex-basis: 100px;
+  flex-grow:1;
+}
+.item-3 {
+  flex-basis: 100px;
+  flex-grow:1;
+}
+.item-4 {
+  flex-basis: 100px;
+  flex-grow:1;
+
+}
+
+/* con grow el espacio que sobra del
+contenedor padre lo divide depende el
+numero que le demos a grow en este caso
+sobran 100 y se divide en 4 que daria 25px
+la suma de los grows de los padres es la
+parte de divisiones que se tiene y que parte
+le toca a cada hijo
+*/
