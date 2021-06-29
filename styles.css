@@ -55,6 +55,10 @@ input {
     height: 75%;
 }
 
+p {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+}
 
 
 .debug {
@@ -490,7 +494,7 @@ flex: 2;
   }
 
   main{
-    margin-top: 10;
+    margin-top: 80px;
     text-align: center;
   }
 
@@ -501,11 +505,9 @@ flex: 2;
   .publishs > form {
     display: flex;
     flex-direction: column;
-  }
-
-  .publishs > form {
     height: 50px;
     margin-top: 10px;
+    align-items: center;
   }
 
   .publishs > form > input {
