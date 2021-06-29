@@ -465,10 +465,6 @@ flex: 2;
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  body{
-    /* background-color: red; */
-
-  }
   .navbar, .actions{
     display: none;
   }
