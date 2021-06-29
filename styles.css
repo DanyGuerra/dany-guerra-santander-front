@@ -293,6 +293,7 @@ input, button {
   padding: 5% 10%;
   display: grid;
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  width: 100%;
 }
 
 .feature-card{
@@ -477,6 +478,53 @@ flex: 2;
 
   main{
     margin-top: 100px;
+  }
+
+  .banner > img{
+    width: 100%;
+  }
+
+  .publishs > form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .publishs > form {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publishs > form > input {
+    width: 50%;
+  }
+
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video{
+    width: 100%;
+  }
+
+  .publishs{
+    margin-top: 10px;
+  }
+
+  .publishs > h3{
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .features{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-image{
+    display: none;
   }
 
 }
