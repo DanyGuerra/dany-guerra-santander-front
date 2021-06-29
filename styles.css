@@ -5,6 +5,7 @@ body {
   /* background-color: #fffbf7; */
   background-color: #67b54b;
   font-family: "Open Sans", sans-serif;
+
 }
 
 h1 {
@@ -293,7 +294,7 @@ input, button {
   padding: 5% 10%;
   display: grid;
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
-  width: 100%;
+
 }
 
 .feature-card{
