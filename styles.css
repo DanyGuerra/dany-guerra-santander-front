@@ -3,15 +3,24 @@ body {
   margin: 0;
   /* background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png'); */
   /* background-color: #fffbf7; */
-  background-color: #67b54b;
   font-family: "Open Sans", sans-serif;
 
 }
 
 h1 {
-  color: #46484c;
-  text-align: center;
+  color: #025157;
+  font-family: "Alegreya", serif;
   font-size: 60px;
+  margin-bottom: 24px;
+  font-weight: 800;
+
+}
+
+h4 {
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 main{
@@ -19,6 +28,14 @@ main{
   text-align: center;
 }
 
+form{
+  height: 55px;
+}
+
+input, button {
+    height: 100%;
+    border-radius: 8px;
+}
 
 button {
   background-color: #025157;
@@ -29,6 +46,16 @@ button {
   padding: 6px 20px;
   margin-left: -10px;
 }
+
+input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+    height: 75%;
+}
+
+
 
 .debug {
   background-color:red !important;
@@ -118,17 +145,6 @@ li {
     height: 55px;
 }
 
-input {
-    border: 1px solid #b6b6b6;
-    padding: 6px 20px;
-    width: 60%;
-    max-width: 250px;
-}
-
-input, button {
-    height: 100%;
-    border-radius: 8px;
-}
 
 .promo{
   display: flex;
@@ -474,7 +490,8 @@ flex: 2;
   }
 
   main{
-    margin-top: 100px;
+    margin-top: 10;
+    text-align: center;
   }
 
   .banner > img{
