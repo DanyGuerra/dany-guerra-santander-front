@@ -54,7 +54,6 @@ input {
     padding: 6px 20px;
     width: 60%;
     max-width: 250px;
-    height: 75%;
 }
 
 p {
@@ -94,24 +93,25 @@ li {
   color: #025157;
 } */
 
-.actions {
+/* .actions {
   width: 15%;
   text-align: right;
   font-size: 14px;
   font-weight: 600;
+} */
 
-}
-
-.actions a{
-  color: #67b54b;
-  margin: 0px 10px 0px 10px;
+.navbar{
+  background-color: #fff;
+  padding: 8px 16px;
 }
 
 .navbar ul li{
   margin-right: 25px;
   margin-left: 25px;
 }
-
+.actions a{
+  color: #67b54b;
+}
 .actions button{
   color: white;
   background-color: #67b54b;
@@ -121,6 +121,8 @@ li {
   padding-bottom: 12px;
   border: 0;
   border-radius: 5px;
+  height: 45px;
+  margin: 0 10px;
 }
 
 .publish {
