@@ -396,6 +396,10 @@ flex: 2;
     text-decoration: none;
 }
 
+.carousel-item .card{
+  border-radius: 10px;
+}
+
 
 .how-does-it-work {
     background-color: #fffbf7;
