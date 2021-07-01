@@ -407,7 +407,6 @@ flex: 2;
   margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-
 }
 
 .card-step {
@@ -444,7 +443,10 @@ flex: 2;
 
 }
 
-
+.how-does-it-work .description a {
+    color: #67b54b;
+    text-decoration: none;
+}
 
 
 .card-step .card-step-image .card-step-bg{
@@ -614,6 +616,12 @@ flex: 2;
     font-weight: 600;
     line-height: 30px;
     margin-bottom: 20px;
+  }
+
+  .steps {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
   }
 
 
