@@ -486,6 +486,17 @@ flex: 2;
   text-decoration: none;
 }
 
+.carousel-indicators li{
+  background-color: #025157;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  height: 40px;
+  background-color: #025157;
+
+}
+
 .elementos-bootstrap{
   text-align: center;
 }
@@ -495,18 +506,6 @@ flex: 2;
 }
 
 
-.spinner-bootstrap {
-  text-align: center;
-}
-
-
-.boton-cargando{
-  text-align: center;
-}
-
-.pagination-bootstrap{
-  text-align:center;
-}
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
