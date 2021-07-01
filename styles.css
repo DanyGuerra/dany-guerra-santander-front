@@ -514,7 +514,7 @@ flex: 2;
   }
 
   main{
-    margin-top: 30px;
+    margin-top: 100px;
     text-align: center;
   }
 
@@ -562,6 +562,30 @@ flex: 2;
   .feature-image{
     display: none;
   }
+
+  .success-stories{
+    background-color: #a1d683;
+    padding: 5% 5%;
+    display: block;
+    text-align: center;
+    /* justify-content: space-around; */
+  }
+
+  .success-stories .overview{
+    padding: 0;
+  }
+
+  .success-stories .overview img{
+    width: 200px;
+    height:100%;
+
+  }
+  .success-stories .stories-carousel{
+    width: 70%;
+    margin-left: 15%;
+
+  }
+
 
 }
 
