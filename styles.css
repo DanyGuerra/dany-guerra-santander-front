@@ -210,15 +210,19 @@ li {
   height:100%;
 }
 
-.carousel-item .card {
+.stories-carousel{
+  margin-right: 0;
+  padding-right: 0;
+  width: 370px;
+}
+
+.card {
   max-width: 370px;
   width: 100%;
   background-color: #fff;
   border-radius: 10px;
-  /* position: relative; */
-  display: -ms-flexbox;
+  position: relative;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
