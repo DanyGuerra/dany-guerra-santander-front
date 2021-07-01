@@ -478,7 +478,11 @@ flex: 2;
   color: #67b54b;
   font-weight: 600;
   text-decoration: none;
+}
 
+
+.carousel-inner div{
+  text-align: center;
 }
 
 
@@ -489,7 +493,7 @@ flex: 2;
   }
 
   main{
-    margin-top: 80px;
+    margin-top: 30px;
     text-align: center;
   }
 
