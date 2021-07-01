@@ -86,12 +86,11 @@ li {
   width: 15%;
 }
 
-.navbar {
+/* .navbar {
   width: 70%;
   text-align: center;
   color: #025157;
-
-}
+} */
 
 .actions {
   width: 15%;
@@ -485,10 +484,6 @@ flex: 2;
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar, .actions{
-    display: none;
-  }
-
   h1 {
     font-size: 30px;
   }
