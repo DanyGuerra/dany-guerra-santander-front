@@ -502,15 +502,15 @@ flex: 2;
     width: 100%;
   }
 
-  .publishs > form {
+  .formulario > form {
     display: flex;
     flex-direction: column;
-    height: 50px;
+    height: 100px;
     margin-top: 10px;
     align-items: center;
   }
 
-  .publishs > form > input {
+  .formulario > form > input {
     width: 50%;
   }
 
@@ -523,11 +523,11 @@ flex: 2;
     width: 100%;
   }
 
-  .publishs{
+  .formulario{
     margin-top: 10px;
   }
 
-  .publishs > h3{
+  .formulario > h3{
     font-size: 25px;
     line-height: 1.2;
   }
