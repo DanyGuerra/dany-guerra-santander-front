@@ -480,11 +480,31 @@ flex: 2;
   text-decoration: none;
 }
 
+.carousel-inner{
 
-.carousel-inner div{
+}
+
+.elementos-bootstrap{
   text-align: center;
 }
 
+.elementos-bootstrap button{
+  margin: 0 20px;
+}
+
+
+.spinner-bootstrap {
+  text-align: center;
+}
+
+
+.boton-cargando{
+  text-align: center;
+}
+
+.pagination-bootstrap{
+  text-align:center;
+}
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
