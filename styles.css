@@ -299,6 +299,8 @@ li {
 
 .card-footer{
   margin: 0% 5% 10%;
+  background-color: #fff;
+  border: 0;
 }
 .card-footer button{
   display: block;
