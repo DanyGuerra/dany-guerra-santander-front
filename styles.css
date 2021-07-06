@@ -132,6 +132,18 @@ li {
   margin: 0 10px;
 }
 
+/* .main .intro{
+  width: 50%;
+} */
+
+.banner img{
+  width: 30%;
+}
+
+.intro img{
+  width: 70%;
+}
+
 .publish {
   margin-left: 5%;
 }
@@ -534,7 +546,11 @@ flex: 2;
   }
 
   .banner > img{
-    width: 100%;
+    width: 60%;
+  }
+
+  .intro img{
+    width: 90%;
   }
 
   .formulario > form {
