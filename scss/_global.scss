@@ -1,5 +1,8 @@
 /** _global.scss */
 
+// Para activar el escuchador que convierte a CSS se utiliza
+//       ./node_modules/sass/sass.js --watch ./scss/main.scss output.css
+
 /** colores */
 $dark-green-title: #025157;
 $dark-green-text: #135359;

@@ -35,11 +35,19 @@
         height: 60px;
         margin-right: 10px;
         text-align: center;
-
+        border-radius: 50%;
         img {
           height: 100%;
         }
+
       }
+    }
+  }
+
+  .author{
+    img{
+      width: 40px;
+      border-radius: 50%;
     }
   }
 
@@ -64,4 +72,19 @@
     color:$gray;
   }
 
+  .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 350px; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+    height: 700px;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1px solid $light-gray;
+    margin: 0;
+  }
+
 }
+
