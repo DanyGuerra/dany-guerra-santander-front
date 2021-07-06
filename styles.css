@@ -531,6 +531,48 @@ flex: 2;
   margin: 0 20px;
 }
 
+.footer {
+    padding: 5% 10% 2%;
+    margin: 0;
+    max-width: unset;
+}
+
+.footer .row:first-child{
+    padding-bottom: 20px;
+    /* background-color: red; */
+}
+
+.footer h4{
+    text-transform: uppercase;
+    color: #025157;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.social a{
+  margin:15px;
+}
+
+.col-sm {
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-sm ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.col-sm li a{
+  color: #4a4a4a;
+  text-decoration: none;
+}
 
 
 /** dispositivos móviles en vista viewport (vertical) */
