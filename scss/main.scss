@@ -101,12 +101,12 @@
       display: grid;
       .col {
         float: left;
-        width: 100%;
+        width: 90%;
         padding: 5% 0%;
 
         .card{
-          min-width: 100%;
-          height: 700px;
+          min-width: 90%;
+          height: 720px;
 
           .author p{
             margin-left: 20px;
@@ -116,6 +116,13 @@
     }
   }
 
+  .footer{
+    .row{
+      float: left;
+      width: 90%;
+      padding: 5% 0%;
+    }
+  }
 
 
 }
