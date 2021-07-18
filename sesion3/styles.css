@@ -1,0 +1,49 @@
+/* Para usar flexbox siempre se agrega la propiedad display:flex
+al contenedor padre.*/
+
+.flex-container{
+  background-color: rgb(228, 186, 139);
+  height: 700px;
+}
+
+div{
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 10px ;
+}
+
+h1{
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin:0;
+}
+
+/* Ejemplo para el baseline */
+/*
+.container3 h1{
+  font-size: 50px;
+} */
+
+
+.flex-container{
+  display:flex;
+
+  /* justify-content: */
+  /* justify-content:flex-start; */
+  /* justify-content:flex-end; */
+  /* justify-content:center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+
+  /* align-items: */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  /* align-items: stretch; */
+
+}
+
+
