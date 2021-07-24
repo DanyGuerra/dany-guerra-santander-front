@@ -34,7 +34,7 @@ En el modelo de cajas estándar, cuando estableces los atributos `width` y `heig
 
 Ejemplo, se tienen las propidedades de CSS siguientes:
 
-```
+```css
 .box {
   width: 350px;
   height: 150px;
@@ -55,7 +55,7 @@ CSS introdujo un modelo de caja alternativo algún tiempo después del modelo de
 
 Por defecto, los navegadores usan el modelo de cajas estándar. Si deseas activar el modelo de cajas alternativo para un elemento, hazlo configurando box-sizing: border-box. Con ello, le dices al navegador que tome como el borde de la caja el área definida por cualquier tamaño que establezcas.
 
-```
+```css
 .box {
   box-sizing: border-box;
 }
@@ -76,5 +76,3 @@ Los elementos con display: block; usan todo el ancho disponible de su contenedor
 
 ### [Anterior](../sesion1)
 ### [Siguiente](../sesion3)
-
- <h1><a href="blank" link="https://coderbyte.com">Click here to go to Coderbyte</a></h1>

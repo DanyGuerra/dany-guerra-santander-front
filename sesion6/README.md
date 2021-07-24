@@ -24,8 +24,10 @@ Para agregar Bootstrap al proyecto se agrega la siguiente etiqueta en `<head> </
 
 `Nota: los estilos de bootstrap se agregan antes de la hoja de estilos que ya tenemos en nuestro proyecto`
 
-` <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">`
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+```
 
 Atributos:
 
@@ -41,7 +43,7 @@ Atributos:
 Para agregar los JavaScript de Bootstrap se agrega con la etiqueta `<script>` antes de que termine la etiqueta `<body>` lo siguiente:
 
 
-```
+```html
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"

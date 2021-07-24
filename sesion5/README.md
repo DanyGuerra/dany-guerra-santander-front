@@ -27,7 +27,7 @@ Las Media Queries son fundamentales en el diseño web actual, ya que son la base
 
 Ejemplos de uso de media queries:
 
-```
+```css
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
 }
@@ -55,7 +55,9 @@ HTML5 introdujo un método para permitir que los diseñadores web tomen el contr
 
 Debe incluir el siguiente `<meta>` elemento de ventana gráfica en todas sus páginas web:
 
-`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 Esto le da al navegador instrucciones sobre cómo controlar las dimensiones y la escala de la página.
 

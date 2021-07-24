@@ -23,7 +23,7 @@ La mayoría de clientes de correo electrónico no son compatibles con todos los 
 
 Para agregar la funcionalidad del correo de bienvenida se agrega el codigo de Javascript siguiente.
 
-```
+```javascript
 $("[data-toggle=popover]").popover();
 
 // Crear proyecto de node
@@ -123,7 +123,7 @@ for (let i = 0; i < forms.length; i++) {
 
 Ademas se agrega la plantilla HTML del correo el cual se mandara:
 
-```
+```html
 <table
   style="width: 100%; max-width: 600px; text-align: center; margin: 0 auto; background-color: #fffbf7; color: #025157;">
   <tr>
